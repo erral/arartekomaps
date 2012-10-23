@@ -7,9 +7,11 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 DEFAULT_FROM_EMAIL = 'Ararteko mapak <garaolaza@codesyntax.com>'
+EMAIL_NOTIFICATION = 'Ararteko mapak <garaolaza@codesyntax.com>'
 
 ADMINS = (
     # ('Gari Araolaza', 'garaolaza@codesyntax.com'),
+    ('Urtzi Odriozola', 'uodriozola@codesyntax.com'),
 )
 
 MANAGERS = ADMINS
@@ -70,7 +72,7 @@ LANGUAGES = list(PAGE_LANGUAGES)
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = '/home/csmant/django/ararteko/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -81,7 +83,7 @@ MEDIA_URL = '/site_media/'
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = ''
+STATIC_ROOT = '/home/csmant/django/ararteko/static/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
